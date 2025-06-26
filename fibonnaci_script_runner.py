@@ -15,8 +15,8 @@ from nvflare.job_config.script_runner import FrameworkType, ScriptRunner
 
 
 if __name__ == "__main__":
-    n_clients = 2
-    num_rounds = 2
+    n_clients = 5
+    num_rounds = 5
     train_script = "src/fibonacci_client_fl.py"
 
     job = FedJob(name="fibonacci_fl")
